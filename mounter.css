@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+}
+
+.container {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.b-mount {
+    font-family: sans-serif;
+    font-size: x-large;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.mounted {
+    background-color: greenyellow;
+}
+
+.unmounted {
+    background-color: crimson;
+}
+
+.footer {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5px;
+}
